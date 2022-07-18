@@ -1,5 +1,10 @@
-/* 13. Write a c program for implementing a simple queue and its operation. */
+---
+sidebar_position: 13
+---
 
+#### 13. Write a c program for implementing a simple queue and its operation.
+
+```c
 #include <stdio.h>
 #define SIZE 5
 
@@ -114,3 +119,5 @@ void main()
         }
     }
 }
+
+```

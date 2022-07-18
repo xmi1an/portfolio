@@ -1,8 +1,8 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
 ---
 
-#### Write a c program for linear search which find an element in an unsorted list.
+#### 1. Write a c program for linear search which find an element in an unsorted list.
 
 ```c
 #include <stdio.h>

@@ -1,5 +1,10 @@
-/* 10. Write a c program for implementing of stack and its operation. */
+---
+sidebar_position: 10
+---
 
+#### 10. Write a c program for implementing of stack and its operation. \*/
+
+```c
 #include <stdio.h>
 #define SIZE 5
 
@@ -139,3 +144,4 @@ void main()
 		}
 	}
 }
+```

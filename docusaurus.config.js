@@ -73,7 +73,7 @@ const config = {
           {
             type: "doc",
             docId: "intro",
-            href: "https://bit.ly/xmi1an-web",  
+            href: "https://miilan.me/",  
             label: "About Me",
             position: "right",
           },
@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BCA Practicals, By Milan Jadav.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BCA Practicals`,
       },
       prism: {
         theme: lightCodeTheme,
