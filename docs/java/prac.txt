@@ -1,0 +1,30 @@
+1. Write a Java Program 5
+2. Write a Java Program that will display factorial of the given number.
+3. Write a Java Program that will find the largest no from the given two nos.
+4. Write a Java Program that will find the largest no from the given three nos.
+5. Write a Java Program that shows the use of switch Statement.
+6. Write a Java Program to find the sum of the digits of given number.
+7. Write a Java Program that will display the Sum of 1+1/2+1/3…..+1/n.
+8. Write a Java Program that check weather the given no is prime or not.
+9. Write a Java Program that implements the use of break statement.
+10. Write a Java Program that implements the use of continue statement.
+11. Write a Java Program that will accept Command-line Arguments and display the same.
+12. Write a Java Program to sort the elements of an array in Ascending Order.
+13. Write a Java Program to create a Student class and generate result of student (Total, Per,
+Grade).
+14. Write a Java Program to create an Employee class and generate Salary Slip for the employee.
+15. Write a java program which shows the use of Static Members.
+16. Write a java program which shows the Nesting of Methods.
+17. Write a java program which shows the use of Methods Overloading.
+18. Write a java program which implements the Default Constructors.
+19. Write a java program which implements the Parameterized Constructors.
+20. Write a java program which implements the Overloading of Constructors.
+21. Write a java program which explains the concept of Single Inheritance.
+22. Write a java program which explains the concept of Multilevel Inheritance.
+23. Write a java program which explains the concept of Hierarchical Inheritance.
+24. Write a java program which shows the Method Overriding.
+25. Write a Java Program to implement final class and final method.
+26. Write a Java Program to implement abstract class and abstract method.
+27. Write a java program which implements Interface.
+28. Write a java program which implements Multiple Interfaces.
+29. Write a java program which shows importing of classes from other packages. 
