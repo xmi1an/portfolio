@@ -8,7 +8,7 @@ sidebar_position: 10
 #include <stdio.h>
 #define SIZE 5
 
-int my_stack[SIZE];
+int stack[SIZE];
 int top = -1;
 
 void push(int val)
@@ -19,7 +19,8 @@ void push(int val)
 	}
 	else
 	{
-		my_stack[top] = val;
+		top++;
+		stack[top] = val;
 		printf("Element Pushed : %d \n", val);
 	}
 }
@@ -32,7 +33,7 @@ void pop()
 	}
 	else
 	{
-		printf("Element Popped : %d \n", my_stack[top]);
+		printf("Element Popped : %d \n", stack[top]);
 		top--;
 	}
 }
@@ -65,7 +66,7 @@ void display()
 	{
 		while (i <= top)
 		{
-			printf("%d \n", my_stack[i]);
+			printf("%d \n", stack[i]);
 			i++;
 		}
 	}
@@ -77,7 +78,7 @@ void peek()
 		printf("Stack is Empty..\n");
 
 	else
-		printf("Top Item is : %d \n", my_stack[top]);
+		printf("Top Item is : %d \n", stack[top]);
 }
 
 void popall()
