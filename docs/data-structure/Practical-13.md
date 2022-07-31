@@ -85,6 +85,9 @@ void main()
 {
     int choice;
     int item, len;
+
+    clrscr();
+
     while (1)
     {
         printf("1. enQueue. \n");
