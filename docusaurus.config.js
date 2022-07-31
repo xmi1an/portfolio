@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "BCA Practicals",
-  tagline: "BCA Practicals [ HNGU ]",  
-  url: "https//miilan.me",
+  tagline: "BCA Practicals [HNGU]",  
+  url: "https://miilan.me",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
