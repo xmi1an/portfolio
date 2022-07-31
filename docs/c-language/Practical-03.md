@@ -11,12 +11,18 @@ void main()
 {
     float pi = 3.14;
     float r, area;
+
+    clrscr();
+
     printf("\n");
     printf("Enter the value of r : ");
     scanf("%f", &r);
+    
     area = pi * r * r;
-    printf("AREA=%f", area);
+    
+    printf("Area : %f", area);
     printf("\n");
+
     getch();
 }
 ```

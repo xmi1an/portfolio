@@ -8,7 +8,11 @@ sidebar_position: 1
 #include <conio.h>
 void main()
 {
+    clrscr();
+
     printf("Hello Computer");
+
+    getch();
 }
 ```
 

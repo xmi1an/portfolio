@@ -2,16 +2,29 @@
 sidebar_position: 0
 ---
 
-# Introduction
+# Get Started
 
-# All Programming Languages Practicals in One Place
+# All Practicals at One Place
 
-### Getting Started
-
-Get started by **Select Your Language**
+### Get started by **Select Your Language**
 
 - [C Language](category/c-language)
+<!-- - [C++ Language](category/cpp) -->
 - [Data Structure](category/data-structure)
 - [PHP](category/php)
 - [Java](category/java)
 - [Python](category/python)
+
+## Downloads
+
+### Turbo C++
+
+<!-- Link to Turbo C -->
+
+[Turbo C++](https://developerinsider.co/downloading/?download=https://github.com/vineetchoudhary/turbocpp/releases/download/v3.2/Turbo.C.3.2.zip)
+
+### Visual Studio
+
+[Visual Studio 2012](https://onesoftwares.net/visual-studio-2012/)
+
+[Visual Studio 2019](https://onesoftwares.net/visual-studio-2019/)

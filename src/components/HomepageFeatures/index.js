@@ -4,15 +4,30 @@ import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
 const FeatureList = [
   {
-    title: "Python",
-    Svg: require("@site/static/img/python.svg").default,
+    title: "C Language",
+    Svg: require("@site/static/img/c.svg").default,
     description: (
       <>
         <Link
           className={"button button--secondary button--lg"}
-          to={"docs/category/python"}
+          to={"docs/category/c-language"}
         >
-          Python Practicals
+          C Practicals
+        </Link>
+      </>
+    ),
+  },
+
+  {
+    title: "C++",
+    Svg: require("@site/static/img/cpp.svg").default,
+    description: (
+      <>
+        <Link
+          className={"button button--secondary button--lg"}
+          to={"docs/category/cpp"}
+        >
+          C++ Practicals
         </Link>
       </>
     ),
@@ -60,33 +75,19 @@ const FeatureList = [
     ),
   },
   {
-    title: "C Language",
-    Svg: require("@site/static/img/c.svg").default,
+    title: "Python",
+    Svg: require("@site/static/img/python.svg").default,
     description: (
       <>
         <Link
           className={"button button--secondary button--lg"}
-          to={"docs/category/c-language"}
+          to={"docs/category/python"}
         >
-          C Practicals
+          Python Practicals
         </Link>
       </>
     ),
-  },
-  {
-    title: "C++",
-    Svg: require("@site/static/img/cpp.svg").default,
-    description: (
-      <>
-        <Link
-          className={"button button--secondary button--lg"}
-          to={"docs/category/cpp"}
-        >
-          C++ Practicals
-        </Link>
-      </>
-    ),
-  },
+  }
 ];
 
 function Feature({ Svg, title, description }) {

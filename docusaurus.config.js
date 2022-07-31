@@ -7,8 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "BCA Practicals",
-  tagline: "All BCA Practicals [HNGU] ",
-  url: "https://bca-pracs.netlify.app/",
+  tagline: "BCA Practicals [ HNGU ]",  
+  url: "https//miilan.me",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -73,6 +73,13 @@ const config = {
           {
             type: "doc",
             docId: "intro",
+            href: "docs/intro/#downloads",  
+            label: "Downloads",
+            position: "right",
+          },
+          {
+            type: "doc",
+            docId: "intro",
             href: "https://miilan.me/",  
             label: "About Me",
             position: "right",
@@ -88,11 +95,15 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Code",
+            title: "Links",
             items: [
               {
                 label: "Practicals",
                 to: "/docs/intro",
+              },
+              {
+                label: "Downloads",
+                to: "/docs/intro/#downloads",
               },
             ],
           },
