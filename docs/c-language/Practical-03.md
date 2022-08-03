@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-#### 3. write a C program to find the area of circle using the formula Area = PI *r* r.
+#### 3. write a C program to find the area of circle using the formula Area = PI _r_ r.
 
 ```c
 #include <stdio.h>
@@ -17,9 +17,9 @@ void main()
     printf("\n");
     printf("Enter the value of r : ");
     scanf("%f", &r);
-    
+
     area = pi * r * r;
-    
+
     printf("Area : %f", area);
     printf("\n");
 
