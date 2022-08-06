@@ -21,7 +21,6 @@ void main()
     area = pi * r * r;
 
     printf("Area : %f", area);
-    printf("\n");
 
     getch();
 }
