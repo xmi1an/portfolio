@@ -1,11 +1,25 @@
-/*  6. Write a c program for sorting using insertion sort. */
-#include <stdio.h>
+---
+sidebar_position: 06
+---
 
-int main()
+#### 6. Write a c program for sorting using insertion sort.
+
+```c
+#include <stdio.h>
+#include <conio.h>
+
+void main()
 {
     int arr[5] = {12, 11, 13, 5, 6};
 
     int i, key, j;
+
+    printf("Before Sort..\n");
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 
     for (i = 1; i < 5; i++)
     {
@@ -20,10 +34,11 @@ int main()
         arr[j + 1] = key;
     }
 
+    printf("\nAfter Sort..\n");
     for (i = 0; i < 5; i++)
     {
         printf("%d ", arr[i]);
     }
     printf("\n");
-    return 0;
 }
+```

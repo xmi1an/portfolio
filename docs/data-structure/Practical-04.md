@@ -1,5 +1,12 @@
-/* 4. Write a c program for sorting using quick sort. (Partition exchange sort) method. */
+---
+sidebar_position: 04
+---
+
+#### 4. Write a c program for sorting using quick sort. (Partition exchange sort) method.
+
+```c
 #include <stdio.h>
+#include <conio.h>
 
 int partition(int a[], int s, int e)
 {
@@ -29,7 +36,6 @@ int partition(int a[], int s, int e)
 
 void quickSort(int a[], int s, int e)
 {
-
     int pIndex;
     if (s < e)
     {
@@ -39,7 +45,7 @@ void quickSort(int a[], int s, int e)
     }
 }
 
-int main()
+void main()
 {
     int i = 0;
     int arr[10] = {70, 40, 30, 80, 90, 50};
@@ -61,5 +67,5 @@ int main()
         printf("%d ", arr[i]);
         i++;
     }
-    return 0;
 }
+```
