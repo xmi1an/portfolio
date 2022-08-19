@@ -61,7 +61,7 @@ const config = {
         title: "BCA Practicals",
         logo: {
           alt: "BCA Practicals Logo",
-          src: "img/favicon.png",
+          src: "img/logos.gif",
         },
         items: [
           {
@@ -76,7 +76,7 @@ const config = {
             href: "docs/intro/#downloads",  
             label: "Downloads",
             position: "right",
-          },
+          },  
           {
             type: "doc",
             docId: "intro",
