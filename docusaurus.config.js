@@ -65,12 +65,7 @@ const config = {
         },
         
         // if dark mode is enabled, change the logo to the dark logo
-        dark: {
-          logo: {
-            src: "img/favicon.png",
-          },
-        },
-      
+        
         items: [
           {
             type: "doc",
