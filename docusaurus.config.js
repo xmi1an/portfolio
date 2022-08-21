@@ -61,8 +61,16 @@ const config = {
         title: "BCA Practicals",
         logo: {
           alt: "BCA Practicals Logo",
-          src: "img/logos.gif",
+          src: "img/logo.gif",
         },
+        
+        // if dark mode is enabled, change the logo to the dark logo
+        dark: {
+          logo: {
+            src: "img/favicon.png",
+          },
+        },
+      
         items: [
           {
             type: "doc",
