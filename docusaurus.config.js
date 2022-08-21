@@ -134,8 +134,16 @@ const config = {
         copyright: `Copyright  © ${new Date().getFullYear()} <a href="/" style="color:white">BCA Practicals</a> <br>
         <div style="margin-top : 5px">
   
-         <span style=" position:relative; top:-4px;"> Created By <a href="https://www.instagram.com/xmi1an/" style="color:white;"><span class="glitch" data-text="xmi1an">xmi1an</span></a> </span>
+         <span style=" position:relative; top:-4px;"> Created By <a href="https://www.instagram.com/xmi1an/" style="color:white;">
+        
+         <span class="glitch heroo" data-text="xmi1an">
+         <span>xmi1an</span>
+</a>        
+         </span>
          <img src="img/logo.gif" style="width:20px; height:20px;">
+         </span>
+
+         
          
          </div>
          `
