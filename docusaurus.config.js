@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright  © ${new Date().getFullYear()} <a href="/" style="color:white">BCA Practicals</a> | All Rights Reserved <br>
+        copyright: `Copyright  © ${new Date().getFullYear()} <a href="/" style="color:white">BCA Practicals</a> <br>
         <div style="margin-top : 5px">
   
          <span style=" position:relative; top:-4px;"> Created By <a href="https://www.instagram.com/xmi1an/" style="color:white;"><span class="glitch" data-text="xmi1an">xmi1an</span></a> </span>
