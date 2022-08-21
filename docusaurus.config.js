@@ -61,11 +61,9 @@ const config = {
         title: "BCA Practicals",
         logo: {
           alt: "BCA Practicals Logo",
-          src: "img/logo.gif",
+          src: "img/favicon.png",
         },
-        
-        // if dark mode is enabled, change the logo to the dark logo
-        
+  
         items: [
           {
             type: "doc",
@@ -133,7 +131,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} BCA Practicals`,
+        copyright: `Copyright  © ${new Date().getFullYear()} <a href="/" style="color:white">BCA Practicals</a> | All Rights Reserved <br>
+        <div style="margin-top : 5px">
+  
+         <span style=" position:relative; top:-4px;"> Created By <a href="https://www.instagram.com/xmi1an/" style="color:white;"><span class="glitch" data-text="xmi1an">xmi1an</span></a> </span>
+         <img src="img/logo.gif" style="width:20px; height:20px;">
+         
+         </div>
+         `
+      
+         ,
       },
       prism: {
         theme: lightCodeTheme,
