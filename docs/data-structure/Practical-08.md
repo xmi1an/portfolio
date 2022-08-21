@@ -1,5 +1,12 @@
-/* 8. Write a c program for sorting using merge sort method. */
+---
+sidebar_position: 8
+---
+
+#### 8. Write a c program for sorting using merge sort method.
+
+```c
 #include <stdio.h>
+#include <conio.h>
 
 /* Function to merge the subarrays of a[] */
 void merge(int a[], int start, int mid, int end)
@@ -53,13 +60,14 @@ void merge(int a[], int start, int mid, int end)
 
 void divide(int a[], int start, int end)
 {
-    if (start < end)
+    if (start < end) // if there is more than one element.
     {
-        int mid = (start + end) / 2;
-        divide(a, start, mid);
+        int mid = (start + end) / 2; // find the mid index.
 
-        divide(a, mid + 1, end);
-        merge(a, start, mid, end);
+        divide(a, start, mid); // divide the array into two halves.
+        divide(a, mid + 1, end); // divide the array into two halves.
+
+        merge(a, start, mid, end); // merge the two halves.
     }
 }
 
@@ -87,3 +95,4 @@ int main()
     printArray(a, n);
     return 0;
 }
+```

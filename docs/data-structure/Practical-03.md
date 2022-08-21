@@ -2,7 +2,7 @@
 sidebar_position: 03
 ---
 
-#### 10. Write a c program for implementing of stack and its operation.
+#### 3. Write a c program for sorting using bubble sort method.
 
 ```c
 #include <stdio.h>
@@ -14,6 +14,12 @@ void main()
 {
     int i, j, temp;
     int arr[size] = {18, 30, 15, 70, 12};
+
+    printf("\nUnsorted Array : \n");
+    for (i = 0; i < size; i++)
+    {
+        printf("%d ", arr[i]);
+    }
 
     for (i = 0; i < size - 1; i++)
     {
@@ -28,8 +34,13 @@ void main()
         }
     }
 
-    printf("Sorted array is : ");
-    for (i = 0; i < 5; i++)
+    printf(" \nSorted array is: \n");
+    for (i = 0; i < size; i++)
+    {
         printf("%d ", arr[i]);
+    }
+
+    getch();
+
 }
 ```

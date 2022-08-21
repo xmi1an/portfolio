@@ -131,6 +131,7 @@ const config = {
             ],
           },
         ],
+        
         copyright: `Copyright  © ${new Date().getFullYear()} <a href="/" style="color:white">BCA Practicals</a> <br>
         <div style="margin-top : 5px">
   
@@ -140,7 +141,7 @@ const config = {
          <span>xmi1an</span>
 </a>        
          </span>
-         <img src="img/logo.gif" style="width:20px; height:20px;">
+        
          </span>
 
          
