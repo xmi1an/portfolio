@@ -8,13 +8,12 @@ sidebar_position: 0
 
 ### Get started by **Select Your Language**
 
-- [C Language](category/c-language)
-<!-- - [C++ Language](category/cpp) -->
-- [Data Structure](category/data-structure)
-- [SQL](category/sql)
-- [PHP](category/php)
-- [Java](category/java)
-- [Python](category/python)
+- ## [C Language](category/c-language)
+- ## [Data Structure](category/data-structure)
+- ## [SQL](category/sql)
+- ## [PHP](category/php)
+- ## [Java](category/java)
+- ## [Python](category/python)
 
 ## Downloads
 
