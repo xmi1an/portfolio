@@ -41,12 +41,6 @@
 
 /* Glitch Milan */
 
-
-.sharingan {
-  width: 20px;
-  height: 20px;
-}
-
 /* New glitch */
 .heroo {
   /* glow*/
@@ -498,4 +492,29 @@
 .glitch::after {
   animation: paths 5s step-end infinite, opacity 5s step-end infinite,
     font 7s step-end infinite, movement 8s step-end infinite;
+}
+
+
+
+/* Spin Sharingan */
+@keyframes spinning {
+  from {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.spin {
+  position: relative;
+  top: 5px;
+  animation-name: spinning;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: linear;
+  height: 22px;
+  height: 22px;
 }

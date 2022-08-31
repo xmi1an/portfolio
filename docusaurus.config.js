@@ -14,6 +14,13 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
 
+
+  customFields: {
+    description: "BCA Practicals [HNGU]",
+    keywords: "BCA Practicals, HNGU, BCA, Practicals, HNGU Practicals, HNGU BCA Practicals, HNGU BCA, HNGU BCA Practicals [HNGU]",
+    
+  },
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "xmi1an", // Usually your GitHub org/user name.
@@ -127,6 +134,7 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/xmi1an",
+              
               },
             ],
           },
@@ -138,14 +146,13 @@ const config = {
          <span style=" position:relative; top:-4px;"> Created By <a href="https://www.instagram.com/xmi1an/" style="color:white;">
         
          <span class="glitch heroo" data-text="xmi1an">
-         <span>xmi1an</span>
+         <span>xmi1an 
+</span>
 </a>        
-         </span>
-        
-         </span>
 
-         
-         
+</span>
+
+</span>
          </div>
          `
       

@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Get Started 🎉
+            Get Started <img src="img/Sharingan_triple.svg" alt="Sharingan" class="spin" /> 
           </Link>
           
         </div>
