@@ -11,6 +11,7 @@ sidebar_position: 0
 - [C Language](category/c-language)
 <!-- - [C++ Language](category/cpp) -->
 - [Data Structure](category/data-structure)
+- [SQL](category/sql)
 - [PHP](category/php)
 - [Java](category/java)
 - [Python](category/python)
