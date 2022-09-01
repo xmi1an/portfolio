@@ -68,7 +68,7 @@ const config = {
         title: "BCA Practicals",
         logo: {
           alt: "BCA Practicals Logo",
-          src: "img/favicon.png",
+          src: "img/logo.gif",
         },
   
         items: [
@@ -149,13 +149,12 @@ const config = {
          <span>xmi1an 
 </span>
 </a>        
-
+<img src="img/Sharingan_triple.svg" alt="Sharingan" class="spin" />
 </span>
 
 </span>
          </div>
          `
-      
          ,
       },
       prism: {
