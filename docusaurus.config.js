@@ -149,7 +149,7 @@ const config = {
          <span>xmi1an 
 </span>
 </a>        
-<img src="img/Sharingan_triple.svg" alt="Sharingan" class="spin" />
+
 </span>
 
 </span>
