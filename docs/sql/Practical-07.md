@@ -15,3 +15,7 @@ WHERE
         OR city = 'Rome'
     );
 ```
+
+#### Output:
+
+![d](outputs\7.jpg)

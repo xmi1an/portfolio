@@ -14,3 +14,7 @@ WHERE
     city = 'London'
     AND commission > 10;
 ```
+
+#### Output:
+
+![d](outputs\6.jpg)

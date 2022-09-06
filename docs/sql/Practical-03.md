@@ -13,3 +13,7 @@ SELECT
 FROM
     salesman;
 ```
+
+#### Output:
+
+![d](outputs\3.jpg)

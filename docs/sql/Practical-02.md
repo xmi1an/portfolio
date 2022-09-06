@@ -12,3 +12,7 @@ FROM
 WHERE
     snum = 1001;
 ```
+
+#### Output:
+
+![d](outputs\2.jpg)

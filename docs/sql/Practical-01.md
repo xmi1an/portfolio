@@ -12,3 +12,7 @@ SELECT
 FROM
     orders;
 ```
+
+#### Output:
+
+![d](outputs\1.jpg)

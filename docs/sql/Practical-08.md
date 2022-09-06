@@ -16,3 +16,7 @@ WHERE
         AND snum = 1006
     );
 ```
+
+#### Output:
+
+![d](outputs\8.jpg)

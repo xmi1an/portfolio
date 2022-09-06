@@ -10,3 +10,7 @@ select
 from
     orders;
 ```
+
+#### Output:
+
+![d](outputs\4.jpg)

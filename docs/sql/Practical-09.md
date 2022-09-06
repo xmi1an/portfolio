@@ -16,3 +16,7 @@ WHERE
         '10/06/1999'
     );
 ```
+
+#### Output:
+
+![d](outputs\9.jpg)

@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-#### 12.List all orders with zero or NULL amount.
+#### 12. List all orders with zero or NULL amount.
 
 ```sql
 SELECT
