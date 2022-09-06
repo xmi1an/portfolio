@@ -19,8 +19,6 @@ sidebar_position: 0
 
 ### Turbo C++
 
-<!-- Link to Turbo C -->
-
 [Turbo C++](https://developerinsider.co/downloading/?download=https://github.com/vineetchoudhary/turbocpp/releases/download/v3.2/Turbo.C.3.2.zip)
 
 ### Visual Studio
