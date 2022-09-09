@@ -6,11 +6,13 @@ sidebar_position: 22
 
 ```sql
 SELECT
-    cname,
-    sname
+    salesman.sname,
+    customer.cname
 FROM
-    customer
-    INNER JOIN salesman ON customer.snum = salesman.snum;
+    customer,
+    salesman
+WHERE
+    customer.snum = salesman.snum;
 ```
 
 #### Output:
