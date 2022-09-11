@@ -13,18 +13,18 @@ void main()
 
     clrscr();
 
-    printf("\nEnter n1 : ");
+    printf("Enter n1 : ");
     scanf("%d", &n1);
 
-    printf("\nEnter n2 : ");
+    printf("\n Enter n2 : ");
     scanf("%d", &n2);
 
     t = n1;
     n1 = n2;
     n2 = t;
 
-    printf("\nNew n1 : %d \n", n1);
-    printf("New n2 : %d \n", n2);
+    printf("\n New n1 : %d \n", n1);
+    printf("\n New n2 : %d \n", n2);
 }
 ```
 

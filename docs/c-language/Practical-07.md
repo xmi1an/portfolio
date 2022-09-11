@@ -11,9 +11,10 @@ void main()
 {
     long int km, f, m, cm;
     float i;
+
     clrscr();
 
-    printf("\nEnter Kilometer : ");
+    printf("Enter Kilometer : ");
     scanf("%ld", &km);
 
     m = km * 1000;
@@ -21,12 +22,11 @@ void main()
     i = km * 3448.38;
     cm = km * 100000;
 
-    printf("\n Meter : %ld", m);
-    printf("\n Feet : %ld", f);
-    printf("\n Inch :%f", i);
-    printf("\n Centimeter= %ld", cm);
+    printf("Meter : %ld \n", m);
+    printf("Feet : %ld \n", f);
+    printf("\n Inch :%f \n", i);
+    printf("\n Centimeter= %ld \n", cm);
 }
-
 ```
 
 ### Output

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-#### 4. Write a C program to find the area of rectangle, cube and triangle.(Formula are : Rectangle = l _ b _ h, triangle = (I _ b)_ 0.5, cube = L*L*L.
+#### 4. Write a C program to find the area of rectangle, cube and triangle.(Formula are : Rectangle = l \* b \* h, triangle = (l \* b) \* 0.5, cube = L \* L \* L.
 
 ```c
 #include <stdio.h>
