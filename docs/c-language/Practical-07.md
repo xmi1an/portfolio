@@ -9,23 +9,22 @@ sidebar_position: 7
 #include <conio.h>
 void main()
 {
-    long int km, f, m, cm;
-    float i;
+    float km, f, m, cm, i;
 
     clrscr();
 
     printf("Enter Kilometer : ");
-    scanf("%ld", &km);
+    scanf("%f", &km);
 
     m = km * 1000;
-    f = km * 32748;
-    i = km * 3448.38;
+    f = km * 3280.84;
+    i = km * 39370;
     cm = km * 100000;
 
-    printf("Meter : %ld \n", m);
-    printf("Feet : %ld \n", f);
-    printf("\n Inch :%f \n", i);
-    printf("\n Centimeter= %ld \n", cm);
+    printf("Meter : %.2f \n", m);
+    printf("Feet : %.2f \n", f);
+    printf("\n Inch :%.2f \n", i);
+    printf("\n Centimeter= %.2f \n", cm);
 }
 ```
 

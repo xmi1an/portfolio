@@ -101,10 +101,13 @@ void addAtBegin()
 
 void addAtAfter()
 {
-    struct node *travel = head, *temp;
+    struct node *travel = head;
+    struct node *temp;
     int loc, len, i = 1;
+
     printf("Enter Location : ");
-    scanf("%d", &loc); // 7
+    scanf("%d", &loc);
+
     len = length();
     if (loc > len)
     {
@@ -118,9 +121,12 @@ void addAtAfter()
             travel = travel->link;
             i++;
         }
+
         temp = (struct node *)malloc(sizeof(struct node));
+
         printf("Enter Data To Insert in Node :");
         scanf("%d", &temp->data);
+
         temp->link = NULL;
 
         temp->link = travel->link;
@@ -128,17 +134,18 @@ void addAtAfter()
     }
 }
 
-int length()
+void length()
 {
     int count = 0;
     struct node *temp;
     temp = head;
-    while (temp != NULL)
+    while ( temp != NULL )
     {
         count++;
         temp = temp->link;
     }
-    return count;
+    printf("%d", count);
+
 }
 
 void deleteNode()
