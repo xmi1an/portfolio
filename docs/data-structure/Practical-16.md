@@ -5,7 +5,6 @@ sidebar_position: 16
 #### 15. Write a c program for implementing a circular queue and its operation.
 
 ```c
-
 /* 16. Write a c program for implementing a Singly linked list and its operation. */
 
 #include <stdio.h>

@@ -1,5 +1,10 @@
-/* 18. Write a c program to insert an element into Sorted linked list. */
+---
+sidebar_position: 16
+---
 
+#### 18. Write a c program to insert an element into Sorted linked list.
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -80,3 +85,4 @@ int main()
     display();
     return 0;
 }
+```
