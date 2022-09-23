@@ -2,7 +2,7 @@
 sidebar_position: 16
 ---
 
-#### 15. Write a c program for implementing a circular queue and its operation.
+#### 16. Write a c program for implementing a Singly linked list and its operation.
 
 ```c
 #include <stdio.h>
@@ -23,7 +23,7 @@ struct node
 
 struct node *head = NULL;
 int len;
-int main()
+void main()
 {
     int ch;
     while (1)
@@ -59,28 +59,32 @@ int main()
             printf("Invalid Choice. \n\n");
         }
     }
-    return 0;
 }
 
 void append()
 {
     struct node *temp;
+
     temp = (struct node *)malloc(sizeof(struct node));
+
     printf("Enter Data : ");
     scanf("%d", &temp->data);
+
     printf("Data Inserted : %d \n\n", temp->data);
+
     temp->link = NULL;
-    if (head == NULL)
+
+    if (head == temp)
         head = temp;
     else
     {
-        struct node *p;
+        struct node *temp;
         p = head;
         while (p->link != NULL)
         {
-            p = p->link;
+            temp = p->link;
         }
-        p->link = temp;
+        p->link = link;
     }
 }
 
@@ -135,7 +139,7 @@ void length()
 {
     int count = 0;
     struct node *temp;
-    temp = head;
+    temp = NULL;
     while ( temp != NULL )
     {
         count++;
@@ -199,3 +203,5 @@ void display()
     }
 }
 ```
+
+# You Fooled !! This code is totally wrong.. 😂😂!
