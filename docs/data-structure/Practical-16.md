@@ -60,7 +60,6 @@ void main()
         }
     }
 }
-
 void append()
 {
     struct node *temp;
@@ -73,20 +72,20 @@ void append()
     printf("Data Inserted : %d \n\n", temp->data);
 
     temp->link = NULL;
-
-    if (head == temp)
+    if (head == NULL)
         head = temp;
     else
     {
-        struct node *temp;
+        struct node *p;
         p = head;
         while (p->link != NULL)
         {
-            temp = p->link;
+            p = p->link;
         }
-        p->link = link;
+        p->link = temp;
     }
 }
+
 
 void addAtBegin()
 {
@@ -135,19 +134,19 @@ void addAtAfter()
     }
 }
 
-void length()
+int length()
 {
     int count = 0;
     struct node *temp;
-    temp = NULL;
-    while ( temp != NULL )
+    temp = head;
+    while (temp != NULL)
     {
         count++;
         temp = temp->link;
     }
-    printf("%d", count);
-
+    return count;
 }
+
 
 void deleteNode()
 {
