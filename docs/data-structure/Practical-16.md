@@ -60,6 +60,7 @@ void main()
         }
     }
 }
+
 void append()
 {
     struct node *temp;
@@ -202,5 +203,3 @@ void display()
     }
 }
 ```
-
-# You Fooled !! This code is totally wrong.. 😂😂!
