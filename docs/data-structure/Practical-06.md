@@ -42,3 +42,7 @@ void main()
     printf("\n");
 }
 ```
+
+### Output
+
+![d](output\6.jpg)

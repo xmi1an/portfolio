@@ -96,3 +96,7 @@ int main()
     return 0;
 }
 ```
+
+### Output
+
+![d](output\8.jpg)

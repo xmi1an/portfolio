@@ -46,3 +46,7 @@ int main()
     }
 }
 ```
+
+### Output
+
+![d](output\5.jpg)

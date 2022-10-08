@@ -17,11 +17,11 @@ sidebar_position: 0
 
 ## Downloads
 
-### Turbo C++
+### [Turbo C++](https://developerinsider.co/downloading/?download=https://github.com/vineetchoudhary/turbocpp/releases/download/v3.2/Turbo.C.3.2.zip)
 
-[Turbo C++](https://developerinsider.co/downloading/?download=https://github.com/vineetchoudhary/turbocpp/releases/download/v3.2/Turbo.C.3.2.zip)
+<hr>
 
-### Visual Studio
+## Visual Studio
 
 [Visual Studio 2012](https://onesoftwares.net/visual-studio-2012/)
 

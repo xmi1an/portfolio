@@ -54,3 +54,7 @@ void main()
     getch();
 }
 ```
+
+### Output
+
+![d](output\7.jpg)

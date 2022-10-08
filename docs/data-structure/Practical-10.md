@@ -146,3 +146,7 @@ void main()
 	}
 }
 ```
+
+### Output
+
+![d](output\10.jpg)
