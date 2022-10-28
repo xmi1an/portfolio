@@ -300,3 +300,7 @@ void search()
     }
 }
 ```
+
+### Output
+
+![d](output\17.jpg)
