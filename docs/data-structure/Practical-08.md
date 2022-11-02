@@ -9,55 +9,46 @@ sidebar_position: 8
 #include <conio.h>
 
 /* Function to merge the subarrays of a[] */
+
 void merge(int a[], int start, int mid, int end)
 {
-    int i = start;   /* initial index of first sub-array */
-    int j = mid + 1; /* initial index of second sub-array */
+    int i = start; // Starting index of first subarray
+    int j = mid + 1; // Starting index of second subarray
+    int k = start;  // Starting index of merged subarray
+    int temp[10]; // Temporary array to store the merged subarray
 
-    int b[20];
-    int k = start;
-
-    while (i <= mid && j <= end)
+    while (i <= mid && j <= end) // Traverse both the subarrays and in each iteration add smaller of both elements in temp
     {
-        if (a[i] <= a[j])
+        if (a[i] <= a[j]) //
         {
-            b[k] = a[i];
+            temp[k] = a[i];
             i++;
             k++;
         }
         else
         {
-            b[k] = a[j];
+            temp[k] = a[j];
             j++;
             k++;
         }
     }
-
-    if (i > mid)
+    while (i <= mid) // Add remaining elements of first subarray in temp.
     {
-        while (j <= end)
-        {
-            b[k] = a[j];
-            j++;
-            k++;
-        }
+        temp[k] = a[i];
+        i++;
+        k++;
     }
-    else
+    while (j <= end) // Add remaining elements of second subarray in temp.
     {
-        while (i <= mid)
-        {
-            b[k] = a[i];
-            i++;
-            k++;
-        }
+        temp[k] = a[j];
+        j++;
+        k++;
     }
-
-    for (k = start; k <= end; k++)
+    for (i = start; i <= end; i++) // Copy the merged subarray into original array.
     {
-        a[k] = b[k];
+        a[i] = temp[i];
     }
 }
-
 void divide(int a[], int start, int end)
 {
     if (start < end) // if there is more than one element.
