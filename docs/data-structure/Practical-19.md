@@ -59,5 +59,8 @@ int main()
     postorder(root);
     return 0;
 }
-
 ```
+
+### Output
+
+![d](output\19.jpg)
