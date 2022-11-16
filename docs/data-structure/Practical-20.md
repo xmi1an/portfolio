@@ -16,6 +16,49 @@ struct node
     struct node *right;
 };
 
+int height(struct node* node);
+
+void printLevelOrder(struct node* root)
+{
+    int h = height(root);
+    int i;
+    for (i = 1; i <= h; i++)
+        printCurrentLevel(root, i);
+}
+
+/* Print nodes at a current level */
+void printCurrentLevel(struct node* root, int level)
+{
+    if (root == NULL)
+        return;
+    if (level == 1)
+        printf("%d ", root->data);
+    else if (level > 1) {
+        printCurrentLevel(root->left, level - 1);
+        printCurrentLevel(root->right, level - 1);
+    }
+}
+
+/* Compute the "height" of a tree -- the number of
+    nodes along the longest path from the root node
+    down to the farthest leaf node.*/
+int height(struct node* node)
+{
+    if (node == NULL)
+        return 0;
+    else {
+        /* compute the height of each subtree */
+        int lheight = height(node->left);
+        int rheight = height(node->right);
+
+        /* use the larger one */
+        if (lheight > rheight)
+            return (lheight + 1);
+        else
+            return (rheight + 1);
+    }
+}
+
 struct node *create()
 {
     struct node *p;
@@ -78,5 +121,15 @@ int main()
     printf("Postorder traversal: ");
     postorder(root);
     return 0;
+
+
+    printf("(BFS) OR Level Order traversal of binary tree is \n");
+    printLevelOrder(root);
 }
 ```
+
+<!--
+### Output
+
+![d](output\19.jpg)
+ -->

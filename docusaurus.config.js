@@ -66,10 +66,10 @@ const config = {
     ({
       navbar: {
         title: "BCA Practicals",
-        logo: {
-          alt: "BCA Practicals Logo",
-          src: "img/logo.gif",
-        },
+        // logo: {
+        //   alt: "BCA Practicals Logo",
+        //   // src: "img/logo.gif",
+        // }
   
         items: [
           {
