@@ -127,8 +127,6 @@ int main()
 }
 ```
 
-<!--
 ### Output
 
 ![d](output\20.jpg)
- -->
