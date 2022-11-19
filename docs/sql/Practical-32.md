@@ -16,7 +16,7 @@ where
         from
             orders
         where
-            odate = '10-apr-99'
+            odate = '10-04-1999'
         group by
             odate
     );
@@ -24,4 +24,4 @@ where
 
 #### Output:
 
-<!-- ![d](outputs\32.jpg) -->
+![d](outputs\32.jpg)
