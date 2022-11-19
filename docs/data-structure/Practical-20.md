@@ -5,7 +5,6 @@ sidebar_position: 20
 #### 20. Write a c program for DFS and BFS technique.
 
 ```c
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -131,5 +130,5 @@ int main()
 <!--
 ### Output
 
-![d](output\19.jpg)
+![d](output\20.jpg)
  -->
