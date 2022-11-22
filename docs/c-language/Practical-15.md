@@ -5,7 +5,6 @@ sidebar_position: 15
 #### 15. Write a C program to Checked whether entered char is capital, small, digit or any special Character.
 
 ```c
-
 #include <stdio.h>
 #include <conio.h>
 
@@ -34,8 +33,3 @@ void main()
 }
 
 ```
-
-<!--
-### Output
-
-![d](outputs\Practical-10.c.jpg) -->

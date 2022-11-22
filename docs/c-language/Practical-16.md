@@ -4,7 +4,7 @@ sidebar_position: 16
 
 #### 16. Write a C program to read number 1 to 7 and print relatively day Sunday to Saturday.
 
-````c
+```c
 #include <stdio.h>
 #include <conio.h>
 
@@ -44,9 +44,4 @@ void main()
     }
 getch();
 }
-<!-- ```
-
-### Output
-
-![d](outputs\Practical-10.c.jpg) -->
-````
+```
