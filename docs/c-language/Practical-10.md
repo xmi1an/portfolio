@@ -29,9 +29,10 @@ void main()
     printf("\nSubtraction : %d", sub);
     printf("\nMultiplication : %d", multiply);
     printf("\nDivision : %f", d);
-}
+
+    getch();
 ```
 
-### Output
+<!-- ### Output -->
 
-![d](outputs\Practical-10.c.jpg)
+<!-- ![d](outputs\Practical-10.c.jpg) -->
