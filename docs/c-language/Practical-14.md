@@ -34,4 +34,5 @@ getch();
 <!--
 ### Output
 
-![d](outputs\Practical-10.c.jpg) -->
+![d](outputs\Practical-10.c.jpg)
+ -->

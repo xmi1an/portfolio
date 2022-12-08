@@ -31,5 +31,8 @@ void main()
         printf("%c is a special character.", ch);
     }
 }
-
 ```
+
+<!-- ### Output
+
+![d](outputs\15.jpg) -->
